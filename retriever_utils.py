@@ -14,7 +14,7 @@ from pinecone import Pinecone
 import streamlit as st
 
 TEXT_MODEL = "text-embedding-ada-002"
-NAMESPACE_KEY = "Sanskriti
+NAMESPACE_KEY = "Sanskriti"
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 os.environ["PINECONE_API_KEY"]= st.secrets["PINECONE_API_KEY"]
